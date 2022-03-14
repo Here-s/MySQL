@@ -1,5 +1,9 @@
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 902c7122b8756ba048e4fba26d747a15ad6eb8c3
 -- 设计一张图书表，包含以下字段：图书名称，图书作者、图书价格、图书分类
 create table book (name varchar(50), author varchar(20), price int, classify varchar(50));
 -- 在图书表中新增一条记录：Java核心技术、作者“Cay S. Horstman”，价格56.43，分类为“计算机技术”
@@ -321,4 +325,8 @@ create table student(
     name varchar(50),
     age int,
     score double(3,1)
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 902c7122b8756ba048e4fba26d747a15ad6eb8c3
