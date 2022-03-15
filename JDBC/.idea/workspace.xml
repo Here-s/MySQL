@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff7d299-1b35-4007-810c-72ac51656563" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_49.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySQL/src/test2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySQL/src/test3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySQL/src/test4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySQL/src/test5.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySQL/src/test6.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestJDBCDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestJDBCUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayTranspose/src/TSMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayTranspose/src/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeOperate/src/MyBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeOperate/src/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC/TestJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC/TestJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MonkeyEatPeach/src/ArrayMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MonkeyEatPeach/src/RecursionMethod.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <recent name="D:\MySQL\JDBC\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestJDBCUpdate">
     <configuration name="TestJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestJDBC" />
       <module name="JDBC" />
@@ -64,9 +63,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJDBCDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestJDBCDelete" />
+      <module name="JDBC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJDBCUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestJDBCUpdate" />
+      <module name="JDBC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJDBCUpdate" />
         <item itemvalue="Application.TestJDBC" />
+        <item itemvalue="Application.TestJDBCDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647176492304</updated>
       <workItem from="1647176493412" duration="6703000" />
+      <workItem from="1647341198373" duration="9158000" />
     </task>
     <servers />
   </component>
