@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class TestJDBC {
 
+
     public static void main(String[] args) throws SQLException {
 
         Scanner scanner = new Scanner(System.in);
