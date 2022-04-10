@@ -20,7 +20,7 @@ create table goods (name varchar(50), price decimal(11,2), inventory int, detail
 
 
 -- 进阶的增删查改
--- 数据库的约束：就是数据库在使用的时候，对于里面能够的数据提出要求和限制。可以借助约束来完成更好的体验。
+-- 数据库的约束：就是数据库在使用的时候，对于里面的数据能够提出要求和限制。可以借助约束来完成更好的体验。
 -- 这里的约束，都是针对列来操作的
 -- NOT NULL 某列不能插入空值。如果插入空值，就会报错
 create table student (id int not null, name varchar(20) not null);-- 这俩就都不能是 null 了
@@ -28,18 +28,20 @@ create table student (id int not null, name varchar(20) not null);-- 这俩就�
 -- UNIQUE  保证某列的每行必须有唯一的值，插入重复的值，就会报错。
 -- MySQL 是如何发现：新的数据和之前的是重复的呢，类似于 二叉搜索树 的插入一样。和后面的索引相关。
 create table student (id int unique, name varchar(20));
+insert student values (1,'张三'),(1,'李四');
+
 
 -- DEFAULT  规定没有给列赋值的时候约定一个默认值
 create table student(id int, name varchar(20) default '匿名');
 
 -- PRIMARY KEY：有主键约束，相当于数据的唯一身份标识，类似于身份证。
--- 日常开发当作最重常使用的约束！！！ 最重要的约束。 创建表的时候，很多时候都需要指定主键。
+-- 日常开发当作最常使用的约束！！！ 最重要的约束。 创建表的时候，很多时候都需要指定主键。
 -- 对于一个表来说，只能有一个列被列为主键。 设为主键之后，不能为 null 不能重复
 create table student (id int primary key, name varchar(20));
 
 -- 主键：典型的用法，就是直接使用 1，2，3，4 整数递增的方式来表示
 -- MySQL 里面对于这种递增的主键，是有内置支持的，称为”自增主键“
--- 设置好自增主键的之后，此时插入记录，就可以不指定自增主键的值了（直接使用 null），交给 MySQL 自行分配即可。
+-- 设置好自增主键之后，此时插入记录，就可以不指定自增主键的值了（直接使用 null），交给 MySQL 自行分配即可。
 -- 每次新增一个新的记录，都会产生一个自增的 id
 -- 如果在 自增主键 当中输入一个 id 之后，那么原来自增的 id 到输入的 id 之间的值就不能用了。
 create table student (id int primary key auto_increment, name varchar(20));
@@ -74,7 +76,7 @@ delete from exam_result;
 
 -- 另外，除了 where 之外，想 order by 和 limit 也是可以使用的。
 -- update 是会修改服务器上的原始数据的。
-update exam_result set math = 98 where name = 'qqq';-- 如果条件写错了，修改的范围可能会更大或者更小
+update exam_result set math = 98 where name = 'eee';-- 如果条件写错了，修改的范围可能会更大或者更小
 -- 没有直接的撤销操作，只能再一次改回去。
 -- 修改如果出现误操作，危害可能比 删库 还来的严重。
 -- 对于删库，一般公司都有预案，可以快速还原回去。
