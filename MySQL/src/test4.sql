@@ -32,8 +32,8 @@ select name from student where classes_id = 1;
 select name from student where classes_id = (select classes_id from student where name = '不想毕业');
 
 -- 写代码要写到易读性高
--- 有时候子查询肯会查询出多条记录，不能用 = 用 in 这样的操作
--- 多行子查询：返回多行记录的子查询
+-- 有时候子查询可能会查询出多条记录，不能用 = 用 in 这样的操作
+-- 多行子查询：返回多行记录的子查询t
 -- 先查询语文和英语的课程，然后再查询课程的成绩
 
 select id from course where name = '语文' or name = '英文';

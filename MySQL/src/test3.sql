@@ -130,9 +130,9 @@ create table course(id int primary key auto_increment, name varchar(20));
 create table score(score decimal(3, 1), student_id int, course_id int);
 
 insert into classes(name, `desc`) values
-                                      ('计算机系2019级1班', '学习了计算机原理、C和Java语言、数据结构和算法'),
-                                      ('中文系2019级3班','学习了中国传统文学'),
-                                      ('自动化2019级5班','学习了机械自动化');
+                                      ('计算机系2020级1班', '学习了计算机原理、C和Java语言、数据结构和算法'),
+                                      ('中文系2020级3班','学习了中国传统文学'),
+                                      ('自动化2020级5班','学习了机械自动化');
 
 insert into student(sn, name, qq_mail, classes_id) values
                                                        ('09982','黑旋风李逵','xuanfeng@qq.com',1),
@@ -141,7 +141,7 @@ insert into student(sn, name, qq_mail, classes_id) values
                                                        ('00031','许仙','xuxian@qq.com',1),
                                                        ('00054','不想毕业',null,1),
                                                        ('51234','好好说话','say@qq.com',2),
-                                                       ('83223','tellme',null,2),
+                                                       ('83223','小菜鸡',null,2),
                                                        ('09527','老外学中文','foreigner@qq.com',2);
 
 insert into course(name) values
