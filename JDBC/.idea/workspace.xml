@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff7d299-1b35-4007-810c-72ac51656563" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestJDBCSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayTranspose/src/TSMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayTranspose/src/TestDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeOperate/src/MyBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeOperate/src/TestDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MonkeyEatPeach/src/ArrayMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MonkeyEatPeach/src/RecursionMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySQL/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQL/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/src/test6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQL/src/test6.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +95,7 @@
       <workItem from="1647176493412" duration="6703000" />
       <workItem from="1647341198373" duration="11885000" />
       <workItem from="1647514135860" duration="3015000" />
+      <workItem from="1651280153577" duration="2526000" />
     </task>
     <servers />
   </component>
