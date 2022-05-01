@@ -21,3 +21,17 @@
 --          c、右键创建的目录，有一个选项 “Add as Library”
 --      3、编写代码
 -- 中央仓库就是手机的 应用商店
+
+select dep.name, sum(sal.salary) from salary sal join staff sta on sal.staff_id = sta.staff_id
+ join depart depth on sta.depart_id = dep.depart_id where year(sal.month) = 2016 and
+ month(sal.month) = 9 group by dep.depart_id;
+
+select dep.name, connt(sta.staff_id) from staff sta join depart dep on
+    dep.depart_id = sta.depart_id group by sta.depart_id;
+
+select dep.name,sum.month,sum(sal.salary) from depart dep join staff sta on dep.depart_id =
+    sta.depart_id join salary sal on sta.staff_id = sal.staff_id group by
+    dep.depart_id,sal.month;
+
+select max(salary) as sacondhighestsalary from employee where salary <
+    (select max(salary) from employee);
